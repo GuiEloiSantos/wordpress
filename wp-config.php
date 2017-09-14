@@ -17,4 +17,6 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
+
+//Changing SOMETHING
 require_once(ABSPATH . 'wp-settings.php');
